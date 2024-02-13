@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>BIG-IP Web Server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/ress.min.css" />
+    <link rel="stylesheet" href="css/slick.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-title">
+        <a href="index.html"
+          ><img src="img/logo.svg" class="logo" alt="Load-Balancer"
+        /></a>
+      </h1>
+
+      <nav id="navi">
+        <ul class="nav-menu">
+          <li><a href="#pickup">PICK UP</a></li>
+          <li><a href="#feature">FEATURE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <ul class="nav-sns">
+          <li><a href="https://twitter.com/" target="_blank">X</a></li>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="toggle_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="mask"></div>
+    </header>
+
+    <main id="main">
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg" />
+          <img src="img/mainvisual-pc.jpg" alt="office" />
+        </picture>
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <ul>
+          <li>BIG-IP Web Server</li>
+          <li>
+            BIG-IP i2000 SERIES / i2800</br>
+            <strong>Product Overview</strong></br>
+            The BIG-IP iSeries platform combines software and hardware innovations
+            that balance the need for performance, scalability, and security.
+            iSeries delivers unrivalled software-defined hardware performance,
+            fast and easy programmability, and ecosystem-friendly orchestration.
+            IT teams can offload SSL processing and deploy comprehensive application
+            delivery and security services across data center and colocation infrastructure.
+          </li>
+          <li><strong>Speed and flexibility: obtain 2x price/performance</strong></br>
+            F5 TurboFlex optimization technology offloads specialized functions from
+            the general CPU, resulting in up to 2x the price/performance of leading
+            competitors.</li>
+          <li><strong>Comprehensive security: protect critical apps and data</strong></br>
+            Innovations in the BIG-IP iSeries platform balance performance, scalability and
+            security, enabling you to implement security services such as WAF, network firewall,
+            firewalling and application access controls to protect your environment.</li>
+            <strong>Compliance at scale: meet your regulatory requirements</strong></br>
+            BIG-IP iSeries is FIPS and Common Criteria certified, enabling you to comply with
+            regulatory requirements and get the best protection for all of your application
+            environments.</li>
+        </ul>
+        <p></p>
+      </section>
+      <div id="video">
+        <video
+          id="bg-video"
+          src="video/video.mp4"
+          loop
+          autoplay
+          muted
+          playsinline
+        ></video>
+      </div>
+
+      <section id="pickup">
+        <h2 class="sec-title">PICK UP</h2>
+        <ul class="slick-area">
+          <li>
+            <img src="img/pickup1.jpg" alt="pickup1" />
+          </li>
+          <li>
+            <img src="img/pickup2.jpg" alt="pickup2" />
+          </li>
+          <li>
+            <img src="img/pickup3.jpg" alt="pickup3" />
+          </li>
+          <li>
+            <img src="img/pickup4.jpg" alt="pickup4" />
+          </li>
+          <li>
+            <img src="img/pickup5.jpg" alt="pickup5" />
+          </li>
+          <li>
+            <img src="img/pickup6.jpg" alt="pickup6" />
+          </li>
+          <li>
+            <img src="img/pickup7.jpg" alt="pickup7" />
+          </li>
+          <li>
+            <img src="img/pickup8.jpg" alt="pickup8" />
+          </li>
+          <li>
+            <img src="img/pickup9.jpg" alt="pickup9" />
+          </li>
+        </ul>
+      </section>
+
+      <section id="feature">
+        <h2 class="sec-title">FEATURE</h2>
+        <div class="grid">
+          <div class="item">
+            <img class="fadein" src="img/feature1.jpg" alt="feature1" />
+            <div class="item-content">
+              <p class="item-cat">Network</p>
+              <p class="item-text">
+                What is an optical fiber line?</br>
+                An optical fiber line uses a communication line called an optical fiber to access
+                the Internet. Optical fiber is a light-passing cable made of quartz glass or plastic
+                that uses the reflection and refraction of light to transmit data. Because optical
+                fiber is a transmission method that uses the characteristics of light transmission,
+                it is not easily affected by distance or external noise.
+              </p>
+              <p class="item-date">2023.04.25</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fadein" src="img/feature2.jpg" alt="feature2" />
+            <div class="item-content">
+              <p class="item-cat">Network</p>
+              <p class="item-text">
+                What does a Field Engineer do?</br>
+                What does a field engineer do, and how to become one with no experience|Occupation
+                Directory ... Field engineers are responsible for visiting sites to solve problems
+                when electronic equipment such as computers, printers, control devices, measuring
+                systems, and medical equipment malfunctions. They may also perform routine maintenance,
+                install products upon delivery, and instruct others on how to use the products.
+              </p>
+              <p class="item-date">2023.04.27</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fadein" src="img/feature3.jpg" alt="feature3" />
+            <div class="item-content">
+              <p class="item-cat">Meeting</p>
+              <p class="item-text">
+                The work of a network engineer basically involves working silently, so those who
+                can tackle something steadily are suited for the job. There is a lot of steady learning
+                when it comes to IT technology, and those who are not bothered by such tasks will be
+                able to acquire qualifications smoothly. For example, people who like detailed work in
+                general and can continue to work hard on a continuous basis are suited for this job.
+              </p>
+              <p class="item-date">2023.06.12</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fadein" src="img/feature4.jpg" alt="feature4" />
+            <div class="item-content">
+              <p class="item-cat">Meeting</p>
+              <p class="item-text">
+                What is the teleworking rate among engineers?</br>
+                The remote work implementation rate among IT engineers is approximately 90%.
+                About 80% of them plan to continue to do so even after the Corona convergence.
+                About 90% of companies answered that they have IT engineers working remotely,
+                and about 80% of them will continue to do so even after the Corona convergence.
+              </p>
+              <p class="item-date">2023.06.15</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fadein" src="img/feature5.jpg" alt="feature5" />
+            <div class="item-content">
+              <p class="item-cat">Computer</p>
+              <p class="item-text">
+                A good place for engineers to work includes a good infrastructure for development
+                as well as an environment where employees work smoothly together. Many companies
+                have negative environments for engineers, such as overtime work that is the norm
+                or difficulty in reflecting their experience and skills as engineers in their
+                compensation.
+              </p>
+              <p class="item-date">2023.07.31</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fadein" src="img/feature6.jpg" alt="feature6" />
+            <div class="item-content">
+              <p class="item-cat">Network</p>
+              <p class="item-text">
+                What can Cisco do?</br>
+                Cisco sells routers and switches, wireless LAN products, security-related products,
+                and Voice over IP (VoIP) related products. In the early days, the main task of IP
+                networking was to "connect" by routers and switches.
+              </p>
+              <p class="item-date">2023.08.01</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fadein" src="img/feature7.jpg" alt="feature7" />
+            <div class="item-content">
+              <p class="item-cat">Network</p>
+              <p class="item-text">
+                What happens when I turn on the VPN?</br>
+                So what happens when you turn on a VPN? In a nutshell, turning on a VPN encrypts
+                your Internet traffic, protecting your personal information from third parties and
+                cybercriminals and greatly increasing your privacy and security.
+              </p>
+              <p class="item-date">2023.09.03</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fadein" src="img/feature8.jpg" alt="feature8" />
+            <div class="item-content">
+              <p class="item-cat">Computer</p>
+              <p class="item-text">
+                SEs are responsible for the upstream process in the development of information systems,
+                from determining specifications from customer requirements to rough design. In this
+                process, management tasks such as budget, personnel, and progress management are also
+                important. However, the job description of an SE may differ depending on the company and
+                development team.
+              </p>
+              <p class="item-date">2023.09.05</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fadein" src="img/feature9.jpg" alt="feature9" />
+            <div class="item-content">
+              <p class="item-cat">Meeting</p>
+              <p class="item-text">
+                The increase in electricity costs due to telework (telecommuting) would be about 40 yen
+                to 216 yen/day in summer and 41 yen to 414.7 yen/day in winter, if you were to work at
+                home for 8 hours a day. If you telework 20 days a month, your electricity bill would
+                increase by 799 yen to 4,320 yen in summer and 821 yen to 8,294 yen in winter.
+              </p>
+              <p class="item-date">2023.09.07</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="sec-title">CONTACT</h2>
+        <div class="content">
+          <div class="contact-info">
+            <p>Load Balance Testing</p>
+            <p>
+              BIG-IP is a network application delivery platform provided by F5Networks,
+              a variety of traffic management, security, access management, and application optimization
+              The BIG-IP platform is a family of products designed to deliver a variety of network services,
+              including traffic management, security, access management, and application optimization.
+              The BIG-IP platform helps enterprises and data centers enhance their network infrastructure
+              and improve application availability, performance, and security,
+              performance, and security.
+            </p>
+            <p>
+              Load balancing (Load Balancing) refers to the technique or process of evenly distributing
+              traffic or workloads within a network or computer system.
+              It refers to the technique or process of evenly distributing traffic and workloads within
+              a network or computer system. Its primary purpose is to distribute the load across multiple
+              servers and resources to improve overall system performance, availability, and reliability.
+              load to multiple servers and resources to improve overall system performance, availability,
+              and reliability.
+            </p>
+          </div>
+
+          <div class="contact-form">
+            <form action="#">
+              <dl>
+                <dt><label for="name">Name:</label></dt>
+                <dd><input type="text" id="name" name="your-name" /></dd>
+                <dt><label for="email">Mail:</label></dt>
+                <dd><input type="email" id="email" name="your-email" /></dd>
+                <dt><label for="message">Message:</label></dt>
+                <dd><textarea id="message" name="your-message"></textarea></dd>
+              </dl>
+              <div class="button"><input type="submit" value="SEND" /></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2023 Load-Balancer</p>
+    </footer>
+  </body>
+</html>
